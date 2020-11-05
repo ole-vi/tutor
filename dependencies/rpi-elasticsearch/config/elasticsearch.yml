@@ -1,0 +1,10 @@
+path:
+  data: /data/data
+  logs: /data/log
+  plugins: /data/plugins
+  work: /data/work
+
+http.cors.allow-origin: "/.*/"
+http.cors.allow-methods: [OPTIONS, HEAD, GET]
+http.cors.enabled: true
+http.cors.allow-origin: http://localhost:5601
