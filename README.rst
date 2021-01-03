@@ -9,17 +9,11 @@ Quickstart for Treehouses
 
 1. Install the `latest stable release <https://github.com/treehouses/openedx/releases>`_ of Tutor
 2. Check out Tor is starting 
-
-if command ``treehouses tor`` shows you onion address, Tor is starting
-
-If not, type
-
-``treehouses tor add 80``
-
-``treehouses tor start``
-
+  1. if command ``treehouses tor`` shows you onion address, Tor is starting
+  2. If not, type
+    1. ``treehouses tor add 80``
+    2. ``treehouses tor start``
 3. Run ``tutor local quickstartfortreehouses``
-
 4. You're done!
 
 Start OpenEdx via Treehouses services
@@ -29,17 +23,12 @@ Start OpenEdx via Treehouses services
 
 On your Treehouses image, get Treehouses CLI repository
 
-``git clone https://github.com/treehouses/cli``
-
-``cd cli``
-
-``git checkout neo-add-tutor``
-
-Check out Tor as showing at the above Quickstart for Treehouses
-
-``./cli.sh services openedx install`` -> make configuration
-
-``./cli.sh services openedx up`` -> download all Docker images and start containers
+1. ``git clone https://github.com/treehouses/cli``
+2. ``cd cli``
+3. ``git checkout neo-add-tutor``
+4. Check out Tor as showing at the above Quickstart for Treehouses
+5. ``./cli.sh services openedx install`` -> make configuration
+6. ``./cli.sh services openedx up`` -> download all Docker images and start containers
 
 Tutor: the docker-based Open edX distribution designed for peace of mind
 ========================================================================
