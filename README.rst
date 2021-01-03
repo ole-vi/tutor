@@ -2,6 +2,15 @@
 
 This image is customized for Treehouses
 ========================================================================
+
+Requirement
+----------
+1. Raspberry Pi4 with 8gb RAM
+2. At least 32GB MicroSD
+3. Treehouses
+  * Download from `here <http://dev.ole.org/>`_
+  * Download treehouse-[number].img.gz (Download the latest version, which means the numebr is the biggest)
+
 Quickstart for Treehouses
 ----------
 
