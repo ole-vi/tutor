@@ -1,5 +1,46 @@
 .. _readme_intro_start:
 
+This image is customized for Treehouses
+========================================================================
+Quickstart for Treehouses
+----------
+
+**Do not execute Tutor command as root user**
+
+1. Install the `latest stable release <https://github.com/treehouses/openedx/releases>`_ of Tutor
+2. Check out Tor is starting 
+
+if command ``treehouses tor`` shows you onion address, Tor is starting
+
+If not, type
+
+``treehouses tor add 80``
+
+``treehouses tor start``
+
+3. Run ``tutor local quickstartfortreehouses``
+
+4. You're done!
+
+Use it via Treehouses services
+----------
+
+**Execute Treehouses services command as root user**
+
+On your Treehouses image, get Treehouses CLI repository
+
+``git clone https://github.com/treehouses/cli``
+
+``cd cli``
+
+``git checkout neo-add-tutor``
+
+Check out Tor as showing the above Quickstart for Treehouses
+
+``./cli.sh services openedx install`` -> make configuration
+
+``./cli.sh services openedx up`` -> download all Docker images and start containers
+
 Tutor: the docker-based Open edX distribution designed for peace of mind
 ========================================================================
 
