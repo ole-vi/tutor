@@ -22,7 +22,7 @@ If not, type
 
 4. You're done!
 
-Use it via Treehouses services
+Start OpenEdx via Treehouses services
 ----------
 
 **Execute Treehouses services command as root user**
@@ -35,7 +35,7 @@ On your Treehouses image, get Treehouses CLI repository
 
 ``git checkout neo-add-tutor``
 
-Check out Tor as showing the above Quickstart for Treehouses
+Check out Tor as showing at the above Quickstart for Treehouses
 
 ``./cli.sh services openedx install`` -> make configuration
 
